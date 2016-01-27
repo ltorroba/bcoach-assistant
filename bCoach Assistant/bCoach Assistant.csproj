@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA096F62-A5C0-4A7F-9D9E-C8294451F43F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bCoach_Assistant</RootNamespace>
+    <AssemblyName>bCoach Assistant</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emgu.CV, Version=2.9.0.1922, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI, Version=2.9.0.1922, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util, Version=2.9.0.1922, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Analyser\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analyser\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analyser\Analyse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analyser\Analyse.Designer.cs">
+      <DependentUpon>Analyse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analyser\Analysis.cs" />
+    <Compile Include="Analyser\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analyser\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage\AnalysisFile\CameraPrediction.cs" />
+    <Compile Include="Storage\AnalysisFile\FinalPrediction.cs" />
+    <Compile Include="Storage\AnalysisFile\Wrapper.cs" />
+    <Compile Include="Storage\CaptureFile\Ball.cs" />
+    <Compile Include="Wizard\AnalysisCreationWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizard\AnalysisCreationWizard.Designer.cs">
+      <DependentUpon>AnalysisCreationWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Blob.cs" />
+    <Compile Include="Storage\CaptureFile\Camera.cs" />
+    <Compile Include="Wizard\CameraCalibration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizard\CameraCalibration.Designer.cs">
+      <DependentUpon>CameraCalibration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizard\CameraConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizard\CameraConfiguration.Designer.cs">
+      <DependentUpon>CameraConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizard\CameraConfigurationBallDetection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizard\CameraConfigurationBallDetection.Designer.cs">
+      <DependentUpon>CameraConfigurationBallDetection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizard\CameraConfigurationSource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizard\CameraConfigurationSource.Designer.cs">
+      <DependentUpon>CameraConfigurationSource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizard\CameraPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizard\CameraPosition.Designer.cs">
+      <DependentUpon>CameraPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage\CaptureFile\Court.cs" />
+    <Compile Include="Storage\CaptureFile\Wrapper.cs" />
+    <Compile Include="Detectors\RgbThresholds.cs" />
+    <Compile Include="Detectors\IDetector.cs" />
+    <Compile Include="Simplifiers\ErodeDilateSimplifier.cs" />
+    <Compile Include="Initial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Initial.Designer.cs">
+      <DependentUpon>Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simplifiers\ISimplifier.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Video.cs" />
+    <EmbeddedResource Include="Analyser\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analyser\Analyse.resx">
+      <DependentUpon>Analyse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analyser\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\AnalysisCreationWizard.resx">
+      <DependentUpon>AnalysisCreationWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\CameraCalibration.resx">
+      <DependentUpon>CameraCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\CameraConfiguration.resx">
+      <DependentUpon>CameraConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\CameraConfigurationBallDetection.resx">
+      <DependentUpon>CameraConfigurationBallDetection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\CameraConfigurationSource.resx">
+      <DependentUpon>CameraConfigurationSource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\CameraPosition.resx">
+      <DependentUpon>CameraPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Initial.resx">
+      <DependentUpon>Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

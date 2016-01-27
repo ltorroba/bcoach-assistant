@@ -1,0 +1,22 @@
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\bin\Debug\bCoach Assistant.exe.config
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\bin\Debug\bCoach Assistant.exe
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\bin\Debug\bCoach Assistant.pdb
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach Assistant.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach_Assistant.Initial.resources
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach_Assistant.Properties.Resources.resources
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach Assistant.csproj.GenerateResource.Cache
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach Assistant.exe
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach Assistant.pdb
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\bin\Debug\ZedGraph.dll
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\bin\Debug\Emgu.CV.xml
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\bin\Debug\Emgu.Util.xml
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach_Assistant.Wizard.AnalysisCreationWizard.resources
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach_Assistant.Wizard.CameraCalibration.resources
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach_Assistant.Wizard.CameraConfiguration.resources
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach_Assistant.Wizard.CameraConfigurationBallDetection.resources
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach_Assistant.Wizard.CameraConfigurationSource.resources
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach_Assistant.Wizard.CameraPosition.resources
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach_Assistant.Analyser.AboutBox.resources
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach_Assistant.Analyser.Main.resources
+C:\Users\Lucas\SkyDrive\School\Computer Science\Internal Assessment\bCoach Assistant\bCoach Assistant\obj\Debug\bCoach_Assistant.Analyser.Analyse.resources

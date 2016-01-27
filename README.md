@@ -1,4 +1,4 @@
-# ${1:Project Name}
+# bCoach Assistant
 
 bCoach Assistant was my IB Computer Science portfolio project, which I designed and developed throughout the course. The idea was to develop a program that would enable my school's coach to analyse basketball games and training sessions by recording them and then having the program process the recordings. The program would then automatically calculate certain variables, such as dribbling frequency and heat zones on the court, as well as allowing frame-by-frame replay.
 
